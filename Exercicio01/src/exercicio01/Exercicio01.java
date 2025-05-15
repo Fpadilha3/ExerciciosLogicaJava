@@ -8,31 +8,38 @@ public class Exercicio01 {
     
     public static void main(String[] args) {
         
-         Scanner ler = new Scanner(System.in);
-         System.out.println("Digite um numero:");
-         int n1 = ler.nextInt();
-         
-        
-       
-  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       
+
     }
+    public static String substituirVogaisPorAsterisco(String texto) {
+        String resultado = "";
+
+        for (int i = 0; i < texto.length(); i++) {
+            char c = texto.charAt(i);
+
+            if (ehVogal(c)) {
+                resultado += "*";
+            } else {
+                resultado += c;
+            }
+        }
+
+        return resultado;
+    }
+
+    private static boolean ehVogal(char c) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
     
 }
+
+
+
+
+
+        
+       
+            
+        
+      

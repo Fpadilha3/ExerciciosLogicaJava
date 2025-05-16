@@ -24,7 +24,11 @@ public class Exercicio6 {
     }
 
     public static boolean ehPalindromo(String texto) {
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 914e9403f8375fb9730647c6bbead5bb83a9b57a
         char[] letras = texto.toCharArray();
         char[] limpo = new char[letras.length];
         int tamanho = 0;

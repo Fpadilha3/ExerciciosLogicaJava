@@ -15,7 +15,7 @@ public class Exercicio4 {
 
         System.out.println("Quantas palavras deseja inserir?");
         int tamanho = ler.nextInt();
-        ler.nextLine(); // Consumir quebra de linha
+        ler.nextLine(); 
 
         String[] palavras = new String[tamanho];
 

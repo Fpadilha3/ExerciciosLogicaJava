@@ -40,7 +40,7 @@ public class Exercicio3 {
         return maior;
     }
 
-    // Método que retorna o valor absoluto sem usar Math.abs()
+
     public static int valorAbsoluto(int numero) {
         if (numero < 0) {
             return -numero;

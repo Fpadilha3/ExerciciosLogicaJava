@@ -24,7 +24,7 @@ public class Exercicio6 {
     }
 
     public static boolean ehPalindromo(String texto) {
-        // Remove espaços e converte para minúsculas manualmente
+ 
         char[] letras = texto.toCharArray();
         char[] limpo = new char[letras.length];
         int tamanho = 0;

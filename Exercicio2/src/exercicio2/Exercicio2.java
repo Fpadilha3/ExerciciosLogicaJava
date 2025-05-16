@@ -33,7 +33,7 @@ public class Exercicio2 {
             }
         }
 
-        // Reconstroi a string manualmente
+       
         String resultado = "";
         for (int i = 0; i < caracteres.length; i++) {
             resultado += caracteres[i];
@@ -43,7 +43,7 @@ public class Exercicio2 {
     }
 
     public static boolean ehVogal(char c) {
-        // Comparando manualmente sem usar métodos como toLowerCase
+       
         return c == 'a' || c == 'A' ||
                c == 'e' || c == 'E' ||
                c == 'i' || c == 'I' ||
